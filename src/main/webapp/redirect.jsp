@@ -9,9 +9,9 @@
 <body>
 	<%
 		request.setAttribute("id", "tiger");
-		request.setAttribute("pw", "12345");
+		request.setAttribute("pw", "12345"); //만들어놓은 리퀘스트 객체를 보내는게 아니라
 		
-		response.sendRedirect("requestex");
+		response.sendRedirect("requestex"); //여기서 새로운 객체를 만들어서 보낸다
 		
 	%>
 </body>

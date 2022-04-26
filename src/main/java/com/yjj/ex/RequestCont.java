@@ -43,7 +43,7 @@ public class RequestCont extends HttpServlet {
 		String id = (String) request.getAttribute("id");
 		String pw = (String) request.getAttribute("pw");
 		
-		System.out.println("id : " + id);
+		System.out.println("id : " + id); // 새로운 리퀘스트 객체를 받아서 null값이 나온다
 		System.out.println("pw : " + pw);
 		
 	}
